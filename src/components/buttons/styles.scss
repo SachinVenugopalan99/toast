@@ -1,0 +1,40 @@
+.buttonBox{
+    width: 72px;
+    height: 32px;
+    background: #F0F0F3;
+    box-shadow: -5px 5px 10px rgba(221, 221, 224, 0.2), 5px -5px 10px rgba(221, 221, 224, 0.2), -5px -5px 10px rgba(255, 255, 255, 0.9), 5px 5px 13px rgba(221, 221, 224, 0.9);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    .buttonText{
+        color: #4A5662;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 22px;
+    }
+}
+
+.buttonContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #F1F1F1;
+    box-shadow: inset -2px 2px 4px rgba(222, 222, 222, 0.2), inset 2px -2px 4px rgba(222, 222, 222, 0.2), inset -2px -2px 4px rgba(255, 255, 255, 0.9), inset 2px 2px 5px rgba(222, 222, 222, 0.9);
+}
+
+.addButton{
+    background: #F0F0F3;
+    box-shadow: -5px 5px 10px rgba(221, 221, 224, 0.2), 5px -5px 10px rgba(221, 221, 224, 0.2), -5px -5px 10px rgba(255, 255, 255, 0.9), 5px 5px 13px rgba(221, 221, 224, 0.9);
+    border-radius: 10px;
+    width: 90px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+}

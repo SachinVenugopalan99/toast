@@ -1,0 +1,27 @@
+.wrapperContainer{
+    // overflow: auto;
+    // height: 90%;
+    .imgContainer {
+        position: relative;
+        .image{
+            width: 100%;
+            height: auto;
+        }
+        .imgText{
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            color: #FFFFFF;
+            width: 130px;
+        }
+    }
+    .boxContainer {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

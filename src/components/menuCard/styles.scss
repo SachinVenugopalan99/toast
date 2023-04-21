@@ -1,0 +1,43 @@
+.card {
+//   height: 184px;
+  width: 160px;
+  background: #F6F6F6;
+    box-shadow: inset -2px 2px 4px rgba(205, 205, 205, 0.2), inset 2px -2px 4px rgba(205, 205, 205, 0.2), inset -2px -2px 4px rgba(255, 255, 255, 0.9), inset 2px 2px 5px rgba(205, 205, 205, 0.9);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 8px 0px;
+    .dishImage{
+        border-radius: 8px 8px 0px 0px;
+    }
+    .imgWrapper {
+        padding: 10px;
+    .textWrapper{
+    display: flex;
+    align-items: center;
+    img{
+        margin-right: 4px;
+    }
+    .dishName{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        color: #4A5662;
+    }
+}
+.buttonWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8px;
+    .amount{
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 22px;      
+    }
+}
+    }
+}

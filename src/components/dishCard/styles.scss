@@ -1,0 +1,32 @@
+.mainItem {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin: 8px 0px;
+    background: #F6F6F6;
+    box-shadow: inset -2px 2px 4px rgba(220, 220, 220, 0.2), inset 2px -2px 4px rgba(220, 220, 220, 0.2), inset -2px -2px 4px rgba(255, 255, 255, 0.9), inset 2px 2px 5px rgba(220, 220, 220, 0.9);
+    border-radius: 10px;
+    .imageItem{
+        border-radius: 10px;
+        max-height: max-content;
+    }
+    .rightItem{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 16px;
+        .priceWrapper{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .amount{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img{
+                    margin-right: 4px;
+                }
+            }
+        }
+    }
+}

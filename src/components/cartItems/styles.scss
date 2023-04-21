@@ -1,0 +1,40 @@
+.cartItems{
+background: #F1F1F1;
+box-shadow: inset -3px -3px 7px #FFFFFF, inset 2px 2px 5px rgba(174, 174, 192, 0.4);
+border-radius: 10px;
+width: 100%;
+margin: 18px 0px;
+.itemBox{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 12px 8px;
+.left {
+    display: flex;
+    align-items: center;
+    .group{
+        display: flex;
+        flex-direction: column;
+        margin-left: 8px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        color: #4A5662;
+        .price{
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 16px;
+            color: #727272;
+        }
+    }
+}
+    .rightContainer{
+        width: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 13px;
+        color: #4A5662;
+    }
+}
+}
