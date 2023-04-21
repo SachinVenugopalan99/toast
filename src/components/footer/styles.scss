@@ -1,0 +1,55 @@
+.footerContainer {
+    background: #F1F1F1;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px 10px 0px 0px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 16px 16px;
+    .box-1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        background: #F1F1F1;
+        box-shadow: inset -2px 2px 4px rgba(212, 212, 212, 0.2), inset 2px -2px 4px rgba(212, 212, 212, 0.2), inset -2px -2px 4px rgba(255, 255, 255, 0.9), inset 2px 2px 5px rgba(212, 212, 212, 0.9);
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .box-2{
+       position: relative;
+       .menu {
+        position: absolute;
+        background: #4A5662;
+        border-radius: 100px; 
+        width: 67px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        bottom: 44px;
+        color: #FFFFFF;
+       }
+    }
+    .box-3{
+        position: relative;
+        .count{
+            position: absolute;
+            top: -12px;
+            right: -8px;
+            background: #EF4B4B;
+            width: 20px;
+            height: 20px;
+            color: #FFFF;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+        }
+    }
+}

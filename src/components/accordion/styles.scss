@@ -1,0 +1,35 @@
+.accordionWrapper{
+    .accordion{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .name {
+            font-size: 14px;
+            line-height: 16px;  
+            color: #4A5662;
+            font-weight: 500;
+            clear: both;
+            display: inline-block;
+            white-space: nowrap;
+        }
+        .line {
+         height: 1px;
+         width: 100%;
+         background-color: #4A5662;
+         margin: 0px 8px;
+         opacity: 0.1;  
+        }
+        .arrow {
+        margin-bottom: 9px;
+        }
+        .rotateArrow {
+            -webkit-transform: rotate(180deg);   
+            -moz-transform: rotate(180deg);     
+            -o-transform: rotate(180deg);          
+            -ms-transform: rotate(180deg);         
+            transform: rotate(180deg);
+            margin-bottom: 0px;  
+            margin-top: 9px;
+        }
+    }
+}

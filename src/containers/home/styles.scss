@@ -1,0 +1,10 @@
+.outerContainer {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    .wrapper{
+        padding: 17px;
+        height: calc(100vh - 190px);
+        overflow: auto;
+    }
+}
